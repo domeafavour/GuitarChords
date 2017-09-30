@@ -35,10 +35,6 @@ module.exports = {
           fallback: 'style-loader',
           use: ['css-loader', 'less-loader']
         })
-      },
-      {
-        test: /\.js$/,
-        use: ['babel-loader']
       }
     ]
   }

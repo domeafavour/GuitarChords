@@ -1,4 +1,4 @@
-
+// color, root, fingerShape, from to
 const all = {
   'A': {
     root: 2,
@@ -35,11 +35,14 @@ export const dictionary = {
   'C': {
     'C': {
       name: 'C',
+      from: 1,
+      to: 3,
       fingerShape: [
         { color: '#f00', x: 5, y: 1 },
         { color: '#f00', x: 3, y: 2 },
         { color: '#f00', x: 2, y: 3 }
-      ]
+      ],
+      root: 2
     },
     'Dm': {
       name: 'Dm',
@@ -47,7 +50,8 @@ export const dictionary = {
         { color: '#19953b', x: 6, y: 1 },
         { color: '#19953b', x: 4, y: 2 },
         { color: '#19953b', x: 5, y: 3 },
-      ]
+      ],
+      root: 3
     },
     'Em': {
       name: 'Em',
@@ -87,8 +91,8 @@ export const dictionary = {
         { color: '#d9712f', x: 3, y: 2 },
       ]
     },
-    'Bmb7': {
-      name: 'Bmb7',
+    'Bm7-5': {
+      name: 'Bm7-5',
       fingerShape: [
         { color: '#4bbe98', x: 2, y: 2 },
         { color: '#4bbe98', x: 4, y: 2 },
